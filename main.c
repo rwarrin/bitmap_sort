@@ -8,7 +8,7 @@
  * assuming 32-bit integers.
  *
  * Using the bit map data structure 1,000,000 integers can be stored in
- * 1,000,000 / 8 / 8  = 15,625 bytes.
+ * 1,000,000 / 8 = 125,000 bytes.
  *
  * BITSPERBYTE is the number of bits in a uint8_t type since that is how the bit
  * map array is implemented, this could be changed to 32 if using uint32_t for
